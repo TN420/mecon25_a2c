@@ -236,7 +236,7 @@ def train_a2c(episodes=EPISODES):
         ax.grid(True)
 
     plt.tight_layout()
-    plt.savefig("performance_plots.png")
+    plt.savefig("a2c_performance_plots.png")
     plt.close()
 
     # Plot losses
